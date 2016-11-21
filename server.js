@@ -10,8 +10,8 @@ app.get('/', function (req, res) {
 });
 
 
-app.get('/art2', function (req, res) {
-  res.sendFile('article 2 will be served here');
+app.get('/art1', function (req, res) {
+  res.sendFile('article 1 will be served here');
 });
 
 app.get('/art2', function (req, res) {
